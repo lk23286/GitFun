@@ -15,7 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //Git excesise has started
-        
+        struct BlackJackCards {
+            enum Suit: Character {
+                case Spades = "♠️"
+                
+            }
+            enum Rank: Int {
+                case Two = 2
+                
+            }
+        }
         
     }
 
